@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 const Home : React.FC = () => {
   return (
     <div className='w-screen h-screen flex flex-col text-center px-16 py-48 '>
@@ -8,8 +9,8 @@ const Home : React.FC = () => {
         Cumque, inventore? Minima doloribus ipsa autem consequuntur, unde ratione et facere similique totam accusamus? Consectetur voluptatibus repellendus soluta neque eius excepturi magni, corporis tempora sapiente rerum tempore omnis, nisi ut!</p>
         <div className=' flex justify-center  gap-4 mt-10'>
 
-        <button className='font-bold text-md bg-sky-500 text-white rounded-sm py-2 w-fit px-6'>Read blogs</button>
-        <button className='font-bold text-md bg-sky-500 text-white rounded-sm py-2 px-6 w-fit'>Publish your own blog</button>
+     <Link to={'/blogs'}>   <button className='font-bold text-md bg-sky-500 text-white rounded-sm py-2 w-fit px-6'>Read blogs</button></Link>
+    <Link to={'/new'}>    <button className='font-bold text-md bg-sky-500 text-white rounded-sm py-2 px-6 w-fit'>Publish your own blog</button> </Link>
         </div>
         <div>
             <p className='text-sm   text-gray-300 absolute bottom-3 '>For learning purpose by #regis</p>
