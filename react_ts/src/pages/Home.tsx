@@ -1,7 +1,7 @@
 import React from 'react'
 const Home : React.FC = () => {
   return (
-    <div className='w-screen h-screen flex flex-col text-center px-16 py-40 '>
+    <div className='w-screen h-screen flex flex-col text-center px-16 py-48 '>
         <h1 className='text-4xl font-bold'>Welcome in the bloggers hub.</h1>  <br />
         <p className='text-sm  text-gray-400'>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae mollitia dolore eum dignissimos suscipit deleniti, alias sapiente iusto deserunt, earum sit tenetur nulla esse incidunt atque tempore voluptas? Nam, aspernatur.
         Excepturi sequi voluptatibus aliquid possimus atque quibusdam deserunt quod officiis error odio minima iusto itaque ipsa voluptate nobis provident, ut ad, nemo temporibus quas magni labore eos impedit aperiam. Odio!
