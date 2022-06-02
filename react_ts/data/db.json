@@ -1,24 +1,6 @@
 {
   "blogs": [
     {
-      "title": "The new blog",
-      "author": "rxxcs",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem. Veritatis",
-      "id": "0Wrr3WL"
-    },
-    {
-      "title": "Typescript",
-      "author": "NDIZIHIWE Regis",
-      "body": "Hello World, This is typescript",
-      "id": "yjo9v1K"
-    },
-    {
-      "title": "",
-      "author": "",
-      "body": "",
-      "id": "KrR19vU"
-    },
-    {
       "title": "Lorem ipsum",
       "author": "Jane Doe",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec libero lectus. In iaculis vel diam sed lacinia. Duis placerat nisi felis, id viverra ipsum rutrum auctor. Sed euismod odio pretium placerat accumsan. Integer nunc justo, ullamcorper eget nunc nec, convallis semper orci. In lacinia mollis quam, vitae tristique mi fermentum id. Suspendisse tincidunt tristique quam, in feugiat odio convallis mattis. Suspendisse mollis porttitor commodo. Donec rhoncus dui interdum dolor venenatis, sed finibus nisi vestibulum. Morbi nec elit sit amet nulla lobortis laoreet.\n\nFusce scelerisque dui sapien, quis lobortis risus mattis in. Suspendisse maximus volutpat purus, vel vehicula velit. Suspendisse ultrices eros ac nibh fringilla vestibulum ac et orci. Donec magna lacus, consectetur eu sollicitudin at, consequat at dui. Curabitur in laoreet nunc. Cras blandit enim sit amet tristique tincidunt. Cras hendrerit nulla hendrerit magna vulputate hendrerit. Donec ut mi et risus sollicitudin faucibus. Nulla vel vehicula eros. Etiam nec justo odio. Fusce ullamcorper quam at mi fringilla, vitae imperdiet nisi luctus.",

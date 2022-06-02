@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Blog from '../components/Blog'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 interface Blog {
@@ -22,7 +22,6 @@ const Blogs: React.FC = () => {
   const [blogs, setBlogs] = useState<blog[]>([])
 
   useEffect(() => {
-
     const fetcher: any = async () => {
       const blogs = await axios.get("http://localhost:5000/blogs")
       setBlogs(blogs.data)
@@ -30,9 +29,10 @@ const Blogs: React.FC = () => {
     fetcher();
   }, [])
 
+
   console.log(blogs)
   return (
-    <div className='w-screen h-screen px-32 py-10 '>
+    <div className='w-screen h-screen px-[15vw] py-10 overflow-x-hidden '>
       <div className='w-full   flex items-center justify-between'><span className='text-2xl font-bold'>Blogs</span> <Link to={'/new'} className="text-sm font-bold text-white bg-sky-400 py-2 px-4 rounded-sm">New Blog</Link></div>
 
       <hr className='mt-10' />
@@ -41,7 +41,7 @@ const Blogs: React.FC = () => {
 
         {blogs &&
           blogs.map((blog) => (
-            <Blog key={blog.id} title={blog.title} body={blog.body} author='John Doe' />
+            <Blog  key={blog.id} id={blog.id} title={blog.title} body={blog.body} author='John Doe' />
           ))
         }
 
